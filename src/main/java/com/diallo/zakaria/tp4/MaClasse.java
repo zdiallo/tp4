@@ -43,7 +43,7 @@ public class MaClasse {
 			res = a * a;
 		}
 		return res;
-	}
+	} 
 
 	public int sommer() throws IllegalStateException {
 		if ((a == 0) && (b == 0)) {
