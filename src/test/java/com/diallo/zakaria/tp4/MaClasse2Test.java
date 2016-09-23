@@ -25,10 +25,10 @@ public class MaClasse2Test extends TestCase {
 	}
 	
 	public void testSommerFail() throws Exception {
-		MaClasse mc = new MaClasse(1, 1);
+		MaClasse mc = new MaClasse(2, 1);
 
 		// cas de test 1
-		assertEquals(1, mc.sommer());
+		assertEquals(3, mc.sommer());
 
 		// cas de test 2
 		try {
